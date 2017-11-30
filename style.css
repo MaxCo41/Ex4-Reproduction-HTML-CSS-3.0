@@ -1,0 +1,155 @@
+* {
+  outline: 1px black dotted;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #E9ECF1;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background-color: #E9ECF1;
+  }
+.logo {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+}
+.nav-gauche {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  align-items: center;
+  text-align: center;
+}
+.nav-droite {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  align-items: center;
+  text-align: center;
+}
+div a {
+  width: 80px;
+}
+
+.button-try {
+    margin-left: 20px;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-top-left-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-bottom-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+    border: solid #000000 1px;
+    text-decoration: none;
+    width: 100px;
+    height: auto;
+  }
+.button-sign {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-top-right-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-bottom-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+
+    font-family: Arial;
+    color: #000000;
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+    border: solid #000000 1px;
+    text-decoration: none;
+    width: 80px;
+    height: auto;
+  }
+#help {
+  width: 120px;
+}
+header, h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: normal;
+  background-color: #E9ECF1;
+}
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #414659;
+  color: white;
+}
+.task {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-right: 1px black solid;
+}
+.team {
+  text-align: center;
+  padding-top:30px;
+  padding-bottom: 30px;
+  border-right: 1px black solid;
+}
+.time {
+  text-align: center;
+  padding-top:30px;
+  padding-bottom: 30px;
+  border-right: 1px black solid;
+}
+.invoicing {
+  text-align: center;
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+h6 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.txt1 {
+  text-align: center;
+}
+.try30days {
+      background: #3498db;
+      background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+      background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+      background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+      background-image: -o-linear-gradient(top, #3498db, #2980b9);
+      background-image: linear-gradient(to bottom, #3498db, #2980b9);
+      border-radius: 5%;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 17px;
+      padding: 10px 25px 10px 25px;
+      border: solid #000000 1px;
+      text-decoration: none;
+      width: 180px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+}
