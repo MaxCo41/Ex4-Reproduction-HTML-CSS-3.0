@@ -153,3 +153,35 @@ h6 {
       margin-right: auto;
       text-align: center;
 }
+.credit {
+  text-align: center;
+
+}
+.screenshot  {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(image/onepage-images/onepage-images/onepager03-background-printscreen.svg);
+  background-repeat: no-repeat;
+  background-color: #E9ECF1;
+  background-size: contain;
+  background-position: center center;
+  }
+.screen-img img {
+  height: 500px;
+  width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cloud{
+  text-align: center;
+}
+h2 {
+  font-weight: normal;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 20px;
+}
