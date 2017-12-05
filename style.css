@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: 1px black dotted;
-}
+}*/
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #E9ECF1;
@@ -201,7 +201,6 @@ p {
   padding: 7px 17px 7px 17px;
   border: solid #000000 1px;
   text-decoration: none;
-  width: 110px;
 }
 .btn-self {
   background: #3498db;
@@ -225,17 +224,21 @@ text-decoration: none;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
 }
 .img-monthly {
   display: flex;
   flex-direction: column;
   text-align: center;
   border-right: 1px grey solid;
+  padding-right: 10px;
 }
 .img-self {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-right: 5px;
+  padding-left: 10px;
 }
 .txt-who {
   text-align: center;
@@ -252,6 +255,50 @@ h4 {
   font-size: 40px;
   margin-bottom: 5px;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  width: 450px;
+  height: 400px;
+  border: 1px black solid;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+form div {
+  padding: 10px;
+}
+label {
+  text-align: center;
+
+}
+.button-form {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 7px 15px 7px 15px;
+  border: solid #000000 1px;
+  text-decoration: none;
+}
+input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 350px;
+}
+#password {
+  margin-bottom: 30px;
+}
 .lien {
   display: flex;
   flex-direction: row;
@@ -263,10 +310,13 @@ h4 {
 .liens ul {
   list-style-type: none;
   margin-bottom: 35px;
+  padding: 0px;
+  margin: 5px;
 }
 h5 {
   color: grey;
   font-size: 17px;
+  margin-bottom: 12px;
 }
 li {
   margin-bottom: 5px;
